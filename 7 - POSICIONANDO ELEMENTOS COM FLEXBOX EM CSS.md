@@ -165,7 +165,7 @@ Permite a quebra de linha, porém é como se nós estivéssemos escrevendo e sem
 
 CONTAINER COM WRAP REVERSE.
 
-PARTE - 2 → PRÁTICA COM FLEX WRAP
+## PARTE - 2 → PRÁTICA COM FLEX WRAP
 
 Nessa aula nós aprendemos na prática como mudar as configurações de wrap do html.
 
@@ -176,6 +176,37 @@ Uma dica importante é que da para mexer no flex wrap com o flex direction que v
 ## ESTRUTURA BÁSICA E PRÁTICA COM FLEX FLOW
 O flex-flow é um atalho para as propriedades flex-direction e flex-wrap. Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
 
-Nessa aula nós usamos o flex-flow em todos as combinações possiveis de se fazer com flex-direction e flex-wrap.
+Nessa aula nós usamos o flex-flow em todos as combinações possíveis de se fazer com flex-direction e flex-wrap.
 
 Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX.
+
+## ESTRUTURA BÁSICA COM JUSTIFY CONTENT
+PARTE - 1
+
+Essa propriedade se encarrega de cuidar do alinhamento dos itens dentro do container e trata também da distribuição de espaço entre eles.
+
+OBS: caso seus itens estejam ocupando 100% do container, ela não se aplica.
+
+Essa propriedade possui algumas variações, que são:
+
+flex-start - vai fazer o alinhamento no início desse container.
+
+flex-end - vai fazer o alinhamento no final do container.
+
+center - vai fazer o alinhamento ao centro do container.
+
+space-between - cria um espaçamento igual entre os elementos, mas tem um porém, ele vai pegar o primeiro elemento e colocar muito próximo ao início do container e o último elemento irá ser posicionado bem próximo ao final desse container.
+
+space-around - vai tratar do espaçamento ao meio tornando-os duas vezes maior que o do início e do final.
+
+## PARTE - 2 → PRÁTICA COM JUSTIFY CONTENT
+
+Nessa aula nós trabalhamos com o justify content e todas as suas variações, porém sendo aplicadas somente com o flex direction em row.
+
+Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX/4-justify-content.
+
+## PARTE - 3 → PRÁTICA COM JUSTIFY CONTENT 2
+
+Ness aula nós trabalhamos com justify content e todas as sua variações, aplicando-os com o flex direction em column.
+
+Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX/4-justify-content.
