@@ -172,3 +172,10 @@ Nessa aula nós aprendemos na prática como mudar as configurações de wrap do 
 Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX.
 
 Uma dica importante é que da para mexer no flex wrap com o flex direction que você quiser, ou seja, row, row-reverse, column ou column-reverse.
+
+## ESTRUTURA BÁSICA E PRÁTICA COM FLEX FLOW
+O flex-flow é um atalho para as propriedades flex-direction e flex-wrap. Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
+
+Nessa aula nós usamos o flex-flow em todos as combinações possiveis de se fazer com flex-direction e flex-wrap.
+
+Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX.
