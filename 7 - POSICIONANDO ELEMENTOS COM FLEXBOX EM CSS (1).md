@@ -119,4 +119,11 @@ column-reverse: ordenação inversa, de baixo para cima.
 
 Modelo de um container organizado em column-reverse.
 
-PARTE - 2 → PRÁTICA COM FLEX DIRECTION
+## PARTE - 2 → PRÁTICA COM FLEX DIRECTION
+Nessa aula nós utilizamos o flexbox para alterar os eixos que foram citados acima.
+
+![As quatro alterações dos eixos com flex-direction.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7907172a-d15b-46d8-816f-a85a311fdcfb/PRINT_DOS_EIXOS_COM_FLEX_DIRECTION.png)
+
+As quatro alterações dos eixos com flex-direction.
+
+Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX.
