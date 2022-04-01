@@ -127,3 +127,48 @@ Nessa aula nós utilizamos o flexbox para alterar os eixos que foram citados aci
 As quatro alterações dos eixos com flex-direction.
 
 Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX.
+
+## ESTRUTURA BÁSICA COM FLEX WRAP
+PARTE - 1
+
+É a propriedade que define se os flex itens devem ou não quebrar a linha.
+
+Por padrão eles não quebram linha, isso faz com que os flex itens sejam compactados além do limite do conteúdo e também do limite do nosso container, e essa sobre carga do limite do container acaba por gerar um vazamento dos flex itens do container.
+
+![CONTAINER COM VAZAMENTO DE CONTEÚDO.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97ba23aa-9fd2-4501-8530-3e7d753d10a5/CONTAINER_COM_VAZAMENTO_DE_CONTEDO.png)
+
+CONTAINER COM VAZAMENTO DE CONTEÚDO.
+
+Note que o último flex item desse container, o número 5 está vazando.
+
+Essa situação acima ocorre, pois por padrão do flex-container, a gestão de container setada é a nowrap.
+
+NOWRAP
+
+É o padrão, não permite a quebra de linha.
+
+WRAP
+
+Permite a quebra de linha assim que um dos flex itens não puder mais ser compactado, logo ele colocará esse flex itens na linha de baixo.
+
+![CONTAINER COM WRAP.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1bc088e8-51b9-4f3c-bd2b-fb5dcd1d232c/CONTAINER_COM_WRAP.png)
+
+CONTAINER COM WRAP.
+
+Com essa adaptação, o problema do vazamento do flex item é resolvido, porém surgirá outro problema. Esse problema é o espaçamento que ficará entre o último flex item e o final do container, mas esse é um problema que aprenderemos a resolver mais para frente.
+
+WRAP-REVERSE
+
+Permite a quebra de linha, porém é como se nós estivéssemos escrevendo e sempre que completasse uma linha nós apertássemos enter e voltasse para a linha de cima, assim mantendo-se sempre na primeira linha.
+
+![CONTAINER COM WRAP REVERSE.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/25f090e4-78e4-4db3-aef6-81a972845796/CONTAINER_COM_WRAP-REVERSE.png)
+
+CONTAINER COM WRAP REVERSE.
+
+PARTE - 2 → PRÁTICA COM FLEX WRAP
+
+Nessa aula nós aprendemos na prática como mudar as configurações de wrap do html.
+
+Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX.
+
+Uma dica importante é que da para mexer no flex wrap com o flex direction que você quiser, ou seja, row, row-reverse, column ou column-reverse.
