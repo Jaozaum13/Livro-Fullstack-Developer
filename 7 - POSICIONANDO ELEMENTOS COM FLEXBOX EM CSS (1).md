@@ -207,6 +207,29 @@ Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Tra
 
 ## PARTE - 3 → PRÁTICA COM JUSTIFY CONTENT 2
 
-Ness aula nós trabalhamos com justify content e todas as sua variações, aplicando-os com o flex direction em column.
+Nessa aula nós trabalhamos com justify content e todas as sua variações, aplicando-os com o flex direction em column.
 
 Para ver como ficou o código desse html siga esse caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX/4-justify-content.
+
+## ESTRUTURA BÁSICA E PRÁTICA COM ALIGN ITEMS 
+Trata do alinhamento dos itens de acordo com o eixo do container.
+
+O alinhamento é diferente para quando os itens estão em colunas ou linhas.
+
+Essa propriedade permite o alinhamento central quando estivermos no eixo vertical.
+
+Nós contamos com alguns tipos de alinhamentos possiveis quando tratamos de align items, que são:
+
+center - alinhamento dos itens ao centro.
+
+stretch - padrão, os itens crescem igualmente.
+
+flex-start - alinhamento dos itens no início.
+
+flex-end - alinhamento dos item no final do container.
+
+baseline - alinhamento de acordo com a linha base da tipografia dos itens.
+
+Nessa aula nós também usamos todos esse alinhamentos citados acima, para vê-los basta você seguir o seguinte caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX/5-align-items.
+
+Nós também alinhamos um item ao centro da tela, que é o ultimo elemento do nosso código. Para isso foram necessárias 2 novas class, que são: “.central” e “.central .item”.
