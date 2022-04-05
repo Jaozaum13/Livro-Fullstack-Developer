@@ -218,7 +218,7 @@ O alinhamento é diferente para quando os itens estão em colunas ou linhas.
 
 Essa propriedade permite o alinhamento central quando estivermos no eixo vertical.
 
-Nós contamos com alguns tipos de alinhamentos possiveis quando tratamos de align items, que são:
+Nós contamos com alguns tipos de alinhamentos possíveis quando tratamos de align items, que são:
 
 center - alinhamento dos itens ao centro.
 
@@ -233,3 +233,48 @@ baseline - alinhamento de acordo com a linha base da tipografia dos itens.
 Nessa aula nós também usamos todos esse alinhamentos citados acima, para vê-los basta você seguir o seguinte caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX/5-align-items.
 
 Nós também alinhamos um item ao centro da tela, que é o ultimo elemento do nosso código. Para isso foram necessárias 2 novas class, que são: “.central” e “.central .item”.
+
+## ESTRUTURA BÁSICA E PRÁTICA COM ALIGN CONTENT
+É a propriedade responsável por tratar o alinhamento das linhas do container em relação ao eixo vertical. Para isso o nosso container precisa respeitar algumas orientações, que são:
+
+O container deve utilizar Quebra de Linha, ou seja, o flex wrap precisará estar na função wrap.
+
+A Altura do container precisa ser maior que a soma das linhas dos itens.
+
+Nós contamos com alguns tipos de alinhamento, que são:
+
+center - alinhamento ao centro desses itens.
+
+stretch - é o padrão e os flex itens crescem igualmente, ou seja, ele sempre vai pegar o maior elemento daquela linha e vai fazer com que os outros elementos cresçam de acordo com o maior.
+
+flex-start - alinhamento dos itens no início.
+
+flex-end - alinhamento dos itens no final.
+
+space-between - cria um espaçamento igual entre os elementos.
+
+space-around - os espaçamentos do meio são duas vezes maiores que os do início e do final.
+
+Nessa aula nós também usamos todos esse alinhamentos citados acima, para vê-los basta você seguir o seguinte caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX/6-align-content.html.
+
+## ESTRUTURA BÁSICA E PRÁTICA COM FLEX GROW
+O flex grow vai definir a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos, ou seja, ele jamais vai definir uma proporcionalidade que viole o conteúdo interno, seja diminuindo, aumentando, permitindo o vazamento, entre outros.
+
+OBS: Se tentarmos usar o justify content junto com essa propriedade, não conseguiremos, pois ele não permite, a não ser quando o flex grow for de 0.
+
+Quando trabalhamos com flex grow, nós só utilizaremos números, ou vai ser 0 ou vai ser algum número relacionado a proporção de crescimento.
+
+Nessa aula nós também usamos todos esse alinhamentos citados acima, para vê-los basta você seguir o seguinte caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX/7-flex-grow.html.
+
+## ESTRUTURA BÁSICA E PRÁTICA COM FLEX BASIS
+É a propriedade que estabelece o tamanho inicial do item antes da distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto. É como se ela pegasse o tamanho minímo que esse item vai ter e depois distribuisse o espaço posterior e anterior desse item.
+
+Com isso nós podemos ter alguns valores possíveis de se ter com o flex basis, que vai depender da sua relação com o flex grow. Os valores são:
+
+auto - caso o item não tenha um tamanho definido, este será proporcional ao conteúdo do item.
+
+px, %, em, ... - são valores previamente definidos.
+
+0 (zero) - terá relação com a definição do flex-grow
+
+Nessa aula nós também usamos todos esse alinhamentos citados acima, para vê-los basta você seguir o seguinte caminho: Atalhos Área de Trabalho/Ferramentas para programar/PROJETOS/AULA FLEXBOX/8-flex-basis.html.
